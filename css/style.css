@@ -1,0 +1,308 @@
+:root {
+  --orange: #ff6c00;
+  --white: #ffffff;
+  --light-black: #9da4bd;
+  --black: #303030;
+  --primary-font: 'Open sans', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+/* Header section style */
+
+.header {
+  background-color: #303030;
+}
+
+.header__logo {
+  background-color: var(--white);
+}
+
+.header__navigation ul {
+}
+
+.header__navigation a {
+  text-decoration: none;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--white);
+}
+
+.header__navigation a:hover {
+  color: var(--orange);
+}
+
+.header__info a {
+  text-decoration: none;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--white);
+}
+
+.button {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: transparent;
+  color: var(--white);
+  text-transform: uppercase;
+  padding: 12px 24px;
+  border: 1px solid var(--orange);
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--white);
+  background-color: var(--orange);
+}
+
+.button:focus {
+  color: var(--white);
+  background-color: var(--orange);
+}
+
+/* Hero section style */
+
+.hero-section {
+  background-color: #303030;
+}
+
+.hero-section__subtitle {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+  color: var(--light-black);
+}
+
+.hero-section__title {
+  font-family: var(--secondary-font);
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+  color: var(--white);
+}
+
+.hero-section__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--light-black);
+}
+
+.hero-section__subtitle {
+  text-transform: uppercase;
+}
+
+/* About section style */
+
+.about__subtitle {
+  font-size: 11px;
+  font-family: var(--primary-font);
+  font-weight: 600;
+  line-height: 14px;
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+.about__title {
+  font-family: var(--secondary-font);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+  color: var(--black);
+}
+
+.about__text {
+  font-size: 18px;
+  font-family: var(--primary-font);
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--black);
+}
+
+.about__button {
+  color: var(--black);
+}
+
+/* Services section style */
+.services {
+  background-color: var(--black);
+  color: var(--light-black);
+}
+
+.services__subtitle {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+  color: var(--light-black);
+  text-transform: uppercase;
+}
+
+.services__title {
+  font-family: var(--secondary-font);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+  color: var(--white);
+}
+
+.services__list {
+  background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
+}
+
+.services__item {
+}
+
+.services__description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.services__button {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: var(--orange);
+  color: var(--white);
+  text-transform: uppercase;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.services__button:hover {
+  background-color: transparent;
+  color: var(--orange);
+}
+
+.services__button:focus {
+  background-color: transparent;
+  color: var(--orange);
+}
+
+/* Statistics section style */
+.statistics {
+}
+
+.statistics__item {
+  background-color: #f7f7f7;
+}
+
+.statistics__value {
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.statistics__value sup {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--orange);
+}
+
+.statistics__description {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+.statistics__subtitle {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.statistics__title {
+  font-family: var(--secondary-font);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.statistics__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.statistics__testimonial {
+}
+
+/* Barbers section style */
+.barbers {
+  background-color: #f7f7f7;
+}
+
+.barbers__subtitle {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+  color: var(--light-black);
+  text-transform: uppercase;
+}
+
+.barbers__title {
+  font-family: var(--secondary-font);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.barbers__card {
+}
+
+.barbers__name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.barbers__role {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--orange);
+}
+
+/* Place section style */
+.place {
+  color: var(--black);
+}
+
+.place__subtitle {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+/* Footer section style */
+.footer {
+}
+
+.footer__copyright {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer__social {
+}
+
+.footer__social-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
